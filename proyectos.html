@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proyectos · Alejandro Gómez</title>
+<meta name="description" content="Casos de estudio UX/UI de Alejandro Gómez: Benz Display, Petmatch, Park Planner y VoltBank AutoConvert.">
+<link rel="canonical" href="https://alejoogmz.github.io/proyectos.html">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Alejandro Gómez · UX/UI"><meta property="og:locale" content="es_CO"><meta property="og:locale:alternate" content="en_US">
+<meta property="og:url" content="https://alejoogmz.github.io/proyectos.html"><meta property="og:title" content="Proyectos · Alejandro Gómez"><meta property="og:description" content="Casos de estudio UX/UI de Alejandro Gómez: Benz Display, Petmatch, Park Planner y VoltBank AutoConvert.">
+<meta property="og:image" content="https://alejoogmz.github.io/assets/img/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Alejandro Gómez, diseñador UX/UI">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0E1F26">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/main.css"><link rel="stylesheet" href="css/inicio.css"><link rel="stylesheet" href="css/proyectos.css">
+</head>
+<body data-page="proyectos" data-root="">
+<main id="main">
+  <div class="wrap">
+    <header class="p-head">
+      <div style="display:flex;flex-direction:column;gap:24px">
+        <p class="t-et-m c-gris reveal" data-i18n="proy.kicker">Casos de estudio · UX/UI</p>
+        <h1 class="t-display-m split" data-i18n="proy.titulo">proyectos</h1>
+      </div>
+      <p class="t-c18 c-gris reveal" style="--d:.3s" data-i18n="proy.intro">Cada caso muestra el problema, cómo investigué, qué decidí y por qué, y qué cambió después de probar con usuarios.</p>
+    </header>
+    <div class="filtros reveal" style="--d:.4s">
+      <hr class="line-grow">
+      <div class="filtros__row">
+        <span class="t-et-s c-gris" id="lbl-filtro" data-i18n="proy.filtrar">Filtrar</span>
+        <div class="filtros__btns" role="group" aria-labelledby="lbl-filtro">
+          <button class="tag filtro" data-f="todos" aria-pressed="true" data-i18n="proy.f.todos">Todos</button>
+          <button class="tag filtro" data-f="app" aria-pressed="false" data-i18n="proy.f.app">App móvil</button>
+          <button class="tag filtro" data-f="web" aria-pressed="false">Web app</button>
+          <button class="tag filtro" data-f="appweb" aria-pressed="false">App + web</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="casos" aria-live="polite">
+      <a class="pcard pcard--dark card-hover reveal" data-tags="app" href="casos/benz-display.html">
+        <div class="pcard__row" style="align-items:flex-start">
+          <div class="pcard__col"><p class="t-et-m c-cian" data-i18n="home.c1.meta">Caso 01 · App móvil · Concepto</p><h2 class="t-h2">benz display</h2>
+            <p class="t-c18" data-i18n="proy.c1">Una app para que cada conductor configure su tablero y su pantalla según el viaje, sin distraerse al manejar.</p></div>
+          <span class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </div>
+        <div class="img" style="aspect-ratio:576/280"><img src="assets/img/p2-benz.webp" alt="Pantallas de la app Benz Display" data-i18n-attr="alt:home.c1.alt" loading="lazy"></div>
+      </a>
+      <a class="pcard pcard--light card-hover reveal" style="--d:.1s" data-tags="web" href="casos/petmatch.html">
+        <div class="img" style="aspect-ratio:574/283"><img src="assets/img/p2-petmatch.webp" alt="Pantallas de Petmatch" data-i18n-attr="alt:home.c2.alt" loading="lazy"></div>
+        <div class="pcard__row">
+          <div class="pcard__col"><p class="t-et-m" data-i18n="home.c2.meta">Caso 02 · Web app · Concepto</p><h2 class="t-h2">petmatch</h2>
+            <p class="t-c18" data-i18n="proy.c2">Adopción de mascotas por compatibilidad y acompañamiento después de adoptar.</p></div>
+          <span class="icon-btn icon-btn--dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </div>
+      </a>
+      <a class="pcard pcard--park card-hover reveal" data-tags="appweb" href="casos/park-planner.html">
+        <div class="img"><img src="assets/img/park-bg.webp" alt="Pantallas de Park Planner" data-i18n-attr="alt:home.c3.alt" loading="lazy"></div>
+        <div class="pcard__box" style="max-width:480px"><p class="t-et-m" data-i18n="home.c3.meta">Caso 03 · App + web · Concepto</p><h2 class="t-h2">park planner</h2>
+          <p class="t-c18" data-i18n="proy.c3">Ciudadanos y planificadores deciden el parque que se necesita.</p></div>
+        <span class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+      </a>
+      <a class="pcard pcard--volt2 card-hover reveal" style="--d:.1s" data-tags="app web" href="casos/voltbank.html">
+        <div class="img" style="aspect-ratio:576/229"><img src="assets/img/p1-imagen-voltbank.webp" alt="Pantallas de VoltBank AutoConvert" data-i18n-attr="alt:home.c4.alt" loading="lazy"></div>
+        <div class="pcard__row">
+          <div class="pcard__col" style="gap:16px"><p class="t-et-m c-cian" data-i18n="home.c4.meta">Caso 04 · Fintech · Prueba de ascenso</p><h2 class="t-h2">voltbank autoconvert</h2>
+            <p class="t-c18" data-i18n="home.c4.txt">Rediseñé el flujo de activación de AutoConvert, donde el 62% de los usuarios abandonaba.</p></div>
+          <span class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</main>
+<script>
+document.addEventListener('click', e => {
+  const b = e.target.closest('.filtro'); if (!b) return;
+  document.querySelectorAll('.filtro').forEach(x => x.setAttribute('aria-pressed', x === b));
+  const f = b.dataset.f;
+  document.querySelectorAll('.casos .pcard').forEach(c => {
+    const show = f === 'todos' || c.dataset.tags.split(' ').includes(f);
+    if (show){ c.classList.remove('is-gone'); requestAnimationFrame(() => c.classList.remove('is-out')); }
+    else { c.classList.add('is-out'); setTimeout(() => c.classList.contains('is-out') && c.classList.add('is-gone'), 450); }
+  });
+});
+</script>
+<script src="js/i18n-en.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

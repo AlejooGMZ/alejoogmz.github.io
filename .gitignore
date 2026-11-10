@@ -1,0 +1,8 @@
+# Archivos de trabajo que no se publican
+.DS_Store
+assets/figma/
+assets/video/*.mov
+_build/__pycache__/
+assets/persona/*.png
+assets/video/src/
+assets/persona/*.PNG

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Página no encontrada · Alejandro Gómez</title>
+<meta name="description" content="Esta página no existe. Vuelve al portafolio de Alejandro Gómez, diseñador UX/UI.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0E1F26">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css"><link rel="stylesheet" href="/css/main.css">
+<style>
+.e404{min-height:calc(100vh - 220px);display:grid;align-content:center;gap:32px;padding:64px 0 96px;position:relative}
+.e404__num{position:relative;display:inline-block;font:800 clamp(140px,26vw,360px)/.8 var(--f-titulos);letter-spacing:-.04em;color:var(--primario-900)}
+.e404__band{position:absolute;left:-6%;right:-40vw;top:38%;height:30%;background:var(--rojo-500);mix-blend-mode:multiply;transform-origin:left;animation:band-in 1.2s var(--ease) .2s both}
+.e404__txt{display:flex;flex-direction:column;gap:12px;max-width:560px}
+.e404__btns{display:flex;gap:16px;flex-wrap:wrap}
+@keyframes band-in{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media (prefers-reduced-motion:reduce){ .e404__band{animation:none} }
+</style>
+</head>
+<body data-page="404" data-root="/">
+<main id="main" class="wrap">
+  <section class="e404" aria-labelledby="t-404">
+    <p class="t-et-m c-gris reveal" data-i18n="e404.kicker">Error 404</p>
+    <div aria-hidden="true"><span class="e404__num">404<span class="e404__band"></span></span></div>
+    <div class="e404__txt">
+      <h1 id="t-404" class="t-h1 reveal" data-i18n="e404.titulo">Esta página no existe.</h1>
+      <p class="t-c18 c-gris reveal" style="--d:.15s" data-i18n="e404.txt">Puede que el enlace esté mal escrito o que la página haya cambiado de lugar. Te dejo dos caminos para seguir.</p>
+    </div>
+    <div class="e404__btns reveal" style="--d:.3s">
+      <a class="btn btn--solid" href="/"><span data-i18n="e404.inicio">Ir al inicio</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      <a class="btn" href="/proyectos.html"><span data-i18n="e404.proyectos">Ver proyectos</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+    </div>
+  </section>
+</main>
+<script src="/js/i18n-en.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Sistema de diseño · Alejandro Gómez (desde Figma "Alejandro · Sistema de diseño") */
+:root{
+  --primario-100:#E6EBEC; --primario-200:#C2CFD2; --primario-500:#4D6B75; --primario-700:#1C333C; --primario-900:#0E1F26;
+  --cian-100:#E4F7FD; --cian-500:#58D4F9; --cian-700:#0E8DB3;
+  --rojo-100:#FEE6E6; --rojo-500:#F93738; --rojo-700:#C41617;
+  /* Variantes de texto pequeño con contraste AA (4.5:1) */ --cian-800:#0C7797; --exito-700:#197D55;
+  --gris-100:#F2F2F2; --gris-200:#E7EBEB; --gris-300:#D3D9DA; --gris-500:#8C989B; --gris-700:#4F5E63; --gris-900:#2A3438;
+  --blanco:#FFFFFF; --negro:#000000; --exito:#1F9D6B; --alerta:#F5A524;
+
+  --f-titulos:"Raleway",system-ui,sans-serif;
+  --f-cuerpo:"Source Sans 3",system-ui,sans-serif;
+
+  --sombra-card:0 4px 8px rgba(14,31,38,.16);
+  --sombra-elevada:0 4px 8px rgba(14,31,38,.24);
+
+  --pad-x:80px; --max:1280px; --gap-seccion:120px;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+@media (max-width:900px){ :root{ --pad-x:20px; --gap-seccion:64px; } }
+
+/* Tipografía: Titulos / Desktop → Mobile */
+.t-display-xl{font:600 180px/.85 var(--f-titulos);letter-spacing:-.02em}
+.t-hero{font:400 100px/1 var(--f-titulos)} .t-hero-bold{font:800 100px/1 var(--f-titulos)}
+.t-display-s{font:600 64px/1.1 var(--f-titulos)}
+.t-h1{font:600 56px/1.15 var(--f-titulos)} .t-h2{font:600 48px/1.1 var(--f-titulos)}
+.t-h3{font:600 40px/1.15 var(--f-titulos)} .t-h4{font:600 32px/1.15 var(--f-titulos)}
+.t-sub1{font:600 28px/1.25 var(--f-titulos)} .t-sub2{font:600 24px/1.25 var(--f-titulos)}
+.t-sub3{font:500 20px/1.35 var(--f-titulos)} .t-sub3b{font:700 20px/1.35 var(--f-titulos)}
+.t-cita{font:500 28px/1.35 var(--f-titulos)}
+.t-et-l{font:800 14px/1.3 var(--f-titulos);letter-spacing:.12em;text-transform:uppercase}
+.t-et-m{font:600 12px/1.3 var(--f-titulos);letter-spacing:.12em;text-transform:uppercase}
+.t-et-s{font:500 12px/1.3 var(--f-titulos);letter-spacing:.12em;text-transform:uppercase}
+.t-c18{font:400 18px/1.65 var(--f-cuerpo)} .t-c16{font:400 16px/1.65 var(--f-cuerpo)} .t-c16b{font:600 16px/1.65 var(--f-cuerpo)}
+.t-c14{font:400 14px/1.55 var(--f-cuerpo)} .t-c14b{font:700 14px/1.55 var(--f-cuerpo)} .t-cap{font:400 12px/1.55 var(--f-cuerpo)}
+.t-btn{font:700 12px/1.3 var(--f-titulos);letter-spacing:.12em;text-transform:uppercase}
+.t-nav{font:700 14px/1.3 var(--f-titulos);letter-spacing:.12em;text-transform:uppercase}
+@media (max-width:900px){
+  .t-display-xl{font-size:80px} .t-hero,.t-hero-bold{font-size:48px} .t-display-s{font-size:52px}
+  .t-h1{font-size:40px} .t-h2{font-size:32px} .t-h3{font-size:28px} .t-h4{font-size:22px}
+  .t-sub1,.t-sub2{font-size:22px} .t-sub3,.t-sub3b{font-size:18px} .t-cita{font-size:22px}
+  .t-c18{font-size:16px} .t-nav{font-size:12px}
+}
